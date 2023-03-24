@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: rgb(209, 243, 231);
+    background-color: rgb(214, 211, 211);
     height: 100%;
     width: 99%;
 }
@@ -13,7 +13,7 @@ header {
     display: flex;
     justify-content: space-around;
     padding: 10px;
-    background-color: rgb(164, 164, 255);
+    background-color: rgb(182, 182, 226);
     color: rgb(0, 0, 0);
 }
 
@@ -32,7 +32,7 @@ nav li {
 }
 
 nav a {
-    color: brown;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
@@ -58,7 +58,7 @@ footer {
     bottom: 0;
     width: 99%;
     padding: 10px;
-    background-color: rgb(164, 164, 255);
+    background-color: rgb(182, 182, 226);
 }
 
 .index {
@@ -112,10 +112,10 @@ nav#menu ul{
 }
 
 nav#menu li{
-    background: #635858;
+    background: rgb(182, 182, 226);
     padding: 10px;
     margin: 2px;
-    transition: background-color 2s;   
+    transition: background-color 2s;
 }
 
 nav#menu li:hover{
@@ -129,5 +129,4 @@ nav#menu a{
 
 nav#menu a:hover{
     color: white;
-    text-decoration: underline;
 }
